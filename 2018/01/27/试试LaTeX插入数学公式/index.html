@@ -6,18 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://ntyz.github.io">
-  <title>Archives: 2018 | nautilus</title>
+  <title>nautilus</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="nice to meet you">
-<meta property="og:type" content="website">
+  <meta name="description" content="试试LaTeX插入数学公式 博客中要编辑数学公式，在网上找了各种方法，换了各种博客平台，发现大多都是粘图片贴链接的方式，十分繁琐，耗时费劲。在github上搭建个人博客后用Markdown就方便多了，以下记录LaTeX初学内容。 ##LaTeX编辑数学公式基本语法元素 LaTeX中的数学模式有两种形式:inline 和 display。前者是指在正文插入行间数学公式,后者独立排列,可以有或没有编号">
+<meta property="og:type" content="article">
 <meta property="og:title" content="nautilus">
-<meta property="og:url" content="https://ntyz.github.io/archives/2018/index.html">
+<meta property="og:url" content="https://ntyz.github.io/2018/01/27/试试LaTeX插入数学公式/index.html">
 <meta property="og:site_name" content="nautilus">
-<meta property="og:description" content="nice to meet you">
+<meta property="og:description" content="试试LaTeX插入数学公式 博客中要编辑数学公式，在网上找了各种方法，换了各种博客平台，发现大多都是粘图片贴链接的方式，十分繁琐，耗时费劲。在github上搭建个人博客后用Markdown就方便多了，以下记录LaTeX初学内容。 ##LaTeX编辑数学公式基本语法元素 LaTeX中的数学模式有两种形式:inline 和 display。前者是指在正文插入行间数学公式,后者独立排列,可以有或没有编号">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2773937-e58f2caae679842c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2773937-a0a9448e6f8b59b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2018-01-27T14:06:01.295Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="nautilus">
-<meta name="twitter:description" content="nice to meet you">
+<meta name="twitter:description" content="试试LaTeX插入数学公式 博客中要编辑数学公式，在网上找了各种方法，换了各种博客平台，发现大多都是粘图片贴链接的方式，十分繁琐，耗时费劲。在github上搭建个人博客后用Markdown就方便多了，以下记录LaTeX初学内容。 ##LaTeX编辑数学公式基本语法元素 LaTeX中的数学模式有两种形式:inline 和 display。前者是指在正文插入行间数学公式,后者独立排列,可以有或没有编号">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/2773937-e58f2caae679842c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
     <link rel="alternative" href="/atom.xml" title="nautilus" type="application/atom+xml">
   
@@ -163,108 +167,207 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-试试LaTeX插入数学公式" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="试试LaTeX插入数学公式"><a href="#试试LaTeX插入数学公式" class="headerlink" title="试试LaTeX插入数学公式"></a>试试LaTeX插入数学公式</h1><hr>
+<p>博客中要编辑数学公式，在网上找了各种方法，换了各种博客平台，发现大多都是粘图片贴链接的方式，十分繁琐，耗时费劲。在github上搭建个人博客后用Markdown就方便多了，以下记录LaTeX初学内容。</p>
+<p>##LaTeX编辑数学公式基本语法元素</p>
+<p>LaTeX中的数学模式有两种形式:inline 和 display。前者是指在正文插入行间数学公式,后者独立排列,可以有或没有编号。</p>
+<ul>
+<li><p><strong>行间公式</strong>(inline):用<code>$...$</code>将公式括起来。</p>
+</li>
+<li><p><strong>块间公式</strong>(displayed)，用<code>$$...$$</code>将公式括起来是无编号的形式，还有<code>\[...\]</code>的无编号独立公式形式但Markdown好像不支持。块间元素默认是居中显示的。</p>
+</li>
+<li><p><strong>各类希腊字母编辑表</strong><br><img src="http://upload-images.jianshu.io/upload_images/2773937-e58f2caae679842c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>常用的包括：<code>\alpha</code>, <code>\beta</code>,<code>\omega</code>分别为α,β,ω. 大写字母<code>\Theta</code>, <code>\Gamma</code>,<code>\Omega</code>为 $\Theta$ ,$\Gamma$,$\Omega$.</p>
+</li>
+<li><p><strong>上下标、根号、省略号</strong><br>上标： ^ 如 $x^2$<br>下标： _  如 $x_i$<br>下标如果多于一个字母或符号,需要用一对 {} 括起来。<br>根号： <code>\sqrt</code> 如$\sqrt[n]{5}$为<code>$\sqrt[n]{5}$</code><br>省略号： <code>\dots \cdots</code>分别为 $\dots  \cdots$</p>
+</li>
+<li><p><strong>运算符</strong><br>小的运算符(operator)例如 + - * /等可以直接输入，其他特殊的有<code>\pm \times \div \cdot \cap \cup \geq \leq \neq \approx \equiv</code><br>$\pm \times \div \cdot \cap \cup \geq \leq \neq \approx \equiv$<br>求和：<code>\sum_1^n</code>:     $\sum_1^n$<br>积分：<code>\int_1^n</code>:     $\int<em>1^n$<br>极限：`lim</em>{x \to \infty}`:     $lim_{x \to \infty}$</p>
+</li>
+<li><p><strong>分数</strong><br>分数的表示：<code>\frac{}{}</code>如$\frac{3}{8}$</p>
+</li>
+<li><p><strong>矩阵与行列式</strong><br><code>$$\begin{matrix}…\end{matrix}$$</code>，使用&amp;分隔同行元素，\换行。如：</p>
+</li>
+</ul>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="formula">$$</span></span><br><span class="line"><span class="formula">    <span class="tag">\<span class="name">begin</span><span class="string">&#123;matrix&#125;</span></span></span></span><br><span class="line"><span class="formula">    1 &amp; x &amp; x^2 <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">    1 &amp; y &amp; y^2 <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">    1 &amp; z &amp; z^2 <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">    <span class="tag">\<span class="name">end</span><span class="string">&#123;matrix&#125;</span></span></span></span><br><span class="line"><span class="formula">$$</span></span><br></pre></td></tr></table></figure>
+<p>$$<br>    \begin{matrix}<br>    1 &amp; x &amp; x^2 \<br>    1 &amp; y &amp; y^2 \<br>    1 &amp; z &amp; z^2 \<br>    \end{matrix}<br>$$<br>行列式<br><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="formula">$$</span></span><br><span class="line"><span class="formula">X=<span class="tag">\<span class="name">left</span></span>|</span></span><br><span class="line"><span class="formula">    <span class="tag">\<span class="name">begin</span><span class="string">&#123;matrix&#125;</span></span></span></span><br><span class="line"><span class="formula">        x_&#123;11&#125; &amp; x_&#123;12&#125; &amp; <span class="tag">\<span class="name">cdots</span></span> &amp; x_&#123;1d&#125;<span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">        x_&#123;21&#125; &amp; x_&#123;22&#125; &amp; <span class="tag">\<span class="name">cdots</span></span> &amp; x_&#123;2d&#125;<span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">        <span class="tag">\<span class="name">vdots</span></span> &amp; <span class="tag">\<span class="name">vdots</span></span> &amp; <span class="tag">\<span class="name">ddots</span></span> &amp; <span class="tag">\<span class="name">vdots</span></span><span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">        x_&#123;m1&#125; &amp; x_&#123;m2&#125; &amp; <span class="tag">\<span class="name">cdots</span></span> &amp; x_&#123;md&#125;<span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">    <span class="tag">\<span class="name">end</span><span class="string">&#123;matrix&#125;</span></span></span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">right</span></span>|</span></span><br><span class="line"><span class="formula">$$</span></span><br></pre></td></tr></table></figure></p>
+<p>$$<br>X=\left|<br>    \begin{matrix}<br>        x<em>{11} &amp; x</em>{12} &amp; \cdots &amp; x<em>{1d}\<br>        x</em>{21} &amp; x<em>{22} &amp; \cdots &amp; x</em>{2d}\<br>        \vdots &amp; \vdots &amp; \ddots &amp; \vdots\<br>        x<em>{m1} &amp; x</em>{m2} &amp; \cdots &amp; x_{md}\<br>    \end{matrix}<br>\right|<br>$$</p>
+<ul>
+<li><p><strong>分隔符</strong><br>各种括号用 () [] { } \langle\rangle 等命令表示,注意花括号通常用来输入命令和环境的参数,所以在数学公式中它们前面要加 \。可以在上述分隔符前面加 \big \Big \bigg \Bigg 等命令来调整大小。</p>
+</li>
+<li><p><strong>箭头</strong><br><img src="http://upload-images.jianshu.io/upload_images/2773937-a0a9448e6f8b59b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+</li>
+<li><p><strong>方程式</strong></p>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;equation&#125;</span></span></span><br><span class="line">E=mc^2</span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;equation&#125;</span></span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>$$<br>\begin{equation}<br>E=mc^2<br>\end{equation}<br>$$</p>
+<ul>
+<li><strong>分段函数</strong><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">f(n) =</span><br><span class="line">\<span class="keyword">begin</span>&#123;cases&#125;</span><br><span class="line">n/<span class="number">2</span>,  &amp; \text&#123;<span class="keyword">if</span> $n$ is even&#125; \\</span><br><span class="line"><span class="number">3</span>n+<span class="number">1</span>, &amp; \text&#123;<span class="keyword">if</span> $n$ is odd&#125;</span><br><span class="line">\<span class="keyword">end</span>&#123;cases&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>$$<br>f(n) =<br>\begin{cases}<br>n/2,  &amp; \text{if $n$ is even} \<br>3n+1, &amp; \text{if $n$ is odd}<br>\end{cases}<br>$$</p>
+<ul>
+<li><strong>方程组</strong><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="formula">$$</span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">left</span></span><span class="tag">\<span class="name">&#123;</span></span> </span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">begin</span><span class="string">&#123;array&#125;</span><span class="string">&#123;c&#125;</span></span></span></span><br><span class="line"><span class="formula">    a_1x+b_1y+c_1z=d_1 <span class="tag">\<span class="name">\</span></span> </span></span><br><span class="line"><span class="formula">    a_2x+b_2y+c_2z=d_2 <span class="tag">\<span class="name">\</span></span> </span></span><br><span class="line"><span class="formula">    a_3x+b_3y+c_3z=d_3</span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">end</span><span class="string">&#123;array&#125;</span></span></span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">right</span></span>. </span></span><br><span class="line"><span class="formula">$$</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>$$<br>\left{<br>\begin{array}{c}<br>    a_1x+b_1y+c_1z=d_1 \<br>    a_2x+b_2y+c_2z=d_2 \<br>    a_3x+b_3y+c_3z=d_3<br>\end{array}<br>\right.<br>$$</p>
+<p>##常用公式</p>
+<ul>
+<li><strong>线性模型</strong><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$$h(\theta) = \sum_&#123;j = 0&#125; ^n \theta_j x_j$$</span><br><span class="line"></span><br><span class="line">- **均方误差**</span><br><span class="line">```$$J(\theta) = \frac&#123;1&#125;&#123;2m&#125;\sum_&#123;i = 0&#125; ^m(y^i - h_\theta (x^i))^2$$</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>$$J(\theta) = \frac{1}{2m}\sum<em>{i = 0} ^m(y^i - h</em>\theta (x^i))^2$$</p>
+<ul>
+<li><strong>批量梯度下降</strong><figure class="highlight plain"><figcaption><span>J(\theta)&#125;&#123;\partial\theta_j&#125;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$$\frac&#123;\partial J(\theta)&#125;&#123;\partial\theta_j&#125;=-\frac1m\sum_&#123;i=0&#125;^m(y^i-h_\theta(x^i))x^i_j $$</span><br><span class="line"></span><br><span class="line">推导过程：</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>$$<br>\begin{align}<br>\frac{\partial J(\theta)}{\partial\theta<em>j}<br>&amp; = -\frac1m\sum</em>{i=0}^m(y^i-h_\theta(x^i)) \frac{\partial}{\partial\theta<em>j}(y^i-h</em>\theta(x^i)) \<br>&amp; = -\frac1m\sum<em>{i=0}^m(y^i-h</em>\theta(x^i)) \frac{\partial}{\partial\theta<em>j}(\sum</em>{j=0}^n\theta_jx<em>j^i-y^i) \<br>&amp; = -\frac1m\sum</em>{i=0}^m(y^i-h_\theta(x^i))x^i_j<br>\end{align}<br>$$<br>```</p>
+<p>$$<br>\begin{align}<br>\frac{\partial J(\theta)}{\partial\theta<em>j}<br>&amp; = -\frac1m\sum</em>{i=0}^m(y^i-h_\theta(x^i)) \frac{\partial}{\partial\theta<em>j}(y^i-h</em>\theta(x^i)) \<br>&amp; = -\frac1m\sum<em>{i=0}^m(y^i-h</em>\theta(x^i)) \frac{\partial}{\partial\theta<em>j}(\sum</em>{j=0}^n\theta_jx<em>j^i-y^i) \<br>&amp; = -\frac1m\sum</em>{i=0}^m(y^i-h_\theta(x^i))x^i_j<br>\end{align}<br>$$</p>
+<p>#####参考：<br>LATEX Notes<br><a href="http://www.cnblogs.com/Sinte-Beuve/p/6160905.html" target="_blank" rel="noopener">http://www.cnblogs.com/Sinte-Beuve/p/6160905.html</a></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>thank you<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/01/27/试试LaTeX插入数学公式/" class="archive-article-date">
-  	<time datetime="2018-01-27T14:06:17.167Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-01-27</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=https://ntyz.github.io/2018/01/27/试试LaTeX插入数学公式/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/01/21/Heimat/" class="archive-article-date">
-  	<time datetime="2018-01-21T09:12:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-01-21</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2018/01/21/Heimat/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Heimat</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/01/21/Heimat/">Heimat</a>
-    </h1>
+  
+  
+  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: "https://ntyz.github.io/2018/01/27/试试LaTeX插入数学公式/", 
+    sourceId: "试试LaTeX插入数学公式",
+    productKey: "true",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="//img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">for fly</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/01/21/hello-world/" class="archive-article-date">
-  	<time datetime="2018-01-21T07:08:58.026Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-01-21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/01/21/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -287,8 +390,8 @@
 	var yiliaConfig = {
 		mathjax: true,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,
